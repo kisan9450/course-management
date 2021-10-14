@@ -1,0 +1,11 @@
+server:
+  port: 8011
+  servlet:
+    contextPath: /course-management
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/course?w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=false
+      database: course
